@@ -1,0 +1,256 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> cobimr@protonmail.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+    <!-- Put here your site title -->
+    <title>Adolfo Moyano | Developer</title>
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <!-- Required librarys -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+
+    <!-- Remove this script once you setup your custom portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Follow the HTML instructions to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hola, mi nombre es <span class="text-color-main">Adolfo Moyano</span>
+          <br />
+          Soy desarrollador web.
+        </h1>
+        <p class="hero-cta" class="load-hidden">
+          <a class="cta-btn cta-btn--hero" href="#about">Conoceme</a>
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">
+          Acerca de mí
+        </h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="./assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+                Mi nombre es Adolfo Moyano, soy desarrollador web full stack, aunque me oriento más hacia el frontend, me encanta el diseño, por lo tanto también me ocupo de diseño gráfico y a veces redacto artículos.
+              </p>
+              <p class="about-wrapper__info-text">
+                Soy CEO de mi agencia creativa <span><em>Digital Solutions Argentina</em></span> &copy; en la cual nos encargamos de brindar soluciones prácticas y bonitas a los emprendedores, negocios y empresas.
+              </p>
+              <span class="d-flex mt-3">
+                <a target="_blank" class="cta-btn cta-btn--resume" href="https://drive.google.com/open?id=19NG8em1XdX5R4mBi6-7hM1R8mIn4nQ2K">
+                  Ver Currículum
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">
+            Proyectos
+          </h2>
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Web de ventas de bienes raíces</h3>
+                <div>
+                  <p class="mb-4">
+                    En este proyecto puse mucho empeño ya que fue el primero que hice cuando empecé a aprender responsive web design, layouts y css grid, en el cual se puede apreciar un diseño completo y enfocado a la confianza y la simplicidad para el usuario para navegar por el sitio, también el formulario de contacto para ser contactado por un asesor en el caso de querer adquirir una propiedad y los testimonios para afianzar la tranquilidad y la confianza en la relación entre el cliente y la empresa.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://bienesraicesdemo.netlify.com/">
+                  Ver Demo
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/admosdigital/real-estate">
+                  Código Fuente
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/bienesraices.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Tienda Freelance</h3>
+                <div>
+                  <p class="mb-4">
+                    Este es otro de los proyectos que desarrollé cuando empezaba, se trata de una tienda de ropa freelance, con ventas de remeras para programadores, todo el layout está hecho a modo de grid para exponer los productos, todos los artículos tienen su respectivo precio y el botón de comprar siendo este un call-to-action para que los potenciales clientes den el siguiente paso para comprar una remera.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://tiendafreelancer.netlify.com/">
+                  Ver Demo
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/admosdigital/freelancestore">
+                  Código Fuente
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/tienda.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Landing page para marca de ropa</h3>
+                <div>
+                  <p class="mb-4">
+                    En este proyecto lo que se lleva a cabo es una landing page de una marca de ropa para que los potenciales clientes escriban su mail y sean contactados en cuanto la tienda abra al público, para esto se utilizó Javascript para validar el correo electrónico, ya que tiene que tener cierto formato, si o si tener un arroba seguido del dominio y este campo no puede estar vacío.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://baseapparelcomingsoonpage.netlify.com/">
+                  Ver Demo
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/admosdigital/base-apparel-coming-soon">
+                  Código Fuente
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/ropa.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          Contacto
+        </h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">
+            Contáctenme para contratar mis servicios:
+          </p>
+          <a
+            target="_blank"
+            class="cta-btn cta-btn--resume" 
+            href="https://wa.me/541126858622" 
+            >Whatsapp</a
+          >
+          <a
+            target="_blank"
+            class="cta-btn cta-btn--resume" 
+            href="mailto:adolfohectormoyano@gmail.com" 
+            >Email</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a href="https://twitter.com/admodev" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+          <a href="https://ar.linkedin.com/in/admosdigital" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a href="https://github.com/admosdigital/" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- If you give me some credit, will be huge for me :) -->
+        <p class="footer__text">
+          © 2020 - Template developed by <a href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>
+          </a>
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+  </body>
+</html>
